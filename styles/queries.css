@@ -1,0 +1,53 @@
+@media screen and (max-width: 834px) {
+  /*header*/
+  .navigation {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+  header {
+    width: 100%;
+  }
+  /*hero*/
+  .hero-section {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .herobtn {
+    margin: 0 auto;
+  }
+  .spacepic {
+    width: 100%;
+  }
+
+  .sales {
+    justify-content: center;
+  }
+
+  /*trending collection*/
+  .collection-wrapper {
+    flex-direction: column;
+
+    align-items: center;
+  }
+
+  .container {
+    width: fit-content;
+  }
+
+  /*creators*/
+.creators{
+  .creators-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .creators-headline {
+
+    & button {
+     position: relative;
+    }
+  }
+}
+}
