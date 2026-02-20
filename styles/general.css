@@ -38,6 +38,14 @@ h3 {
   font-size: 38px;
 }
 
+h5 {
+    margin-top: 15px;
+    font-size: 22px;
+    font-family: "WorkSans-sem";
+    line-height: 1.4;
+  }
+
+
 .sect-desc {
   margin: 10px 0 60px 0;
   font-size: 22px;
