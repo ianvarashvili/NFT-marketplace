@@ -1,5 +1,3 @@
-
-
 @media screen and (max-width: 1070px) {
   /*trending collection*/
   .collection-wrapper {
@@ -14,13 +12,12 @@
   /*creators*/
   .creators {
     .creators-grid {
-      
-       align-self: center;
-      grid-template-columns: repeat(2, 1fr);
+      align-self: center;
+      grid-template-columns: repeat(3, 1fr);
     }
 
     .creators-headline {
-      & button {
+      .btn-transparent {
         position: relative;
       }
     }
@@ -36,8 +33,11 @@
       gap: 50px;
     }
   }
+  /*NFTS*/
+  .card:last-child {
+    display: none;
+  }
 }
-
 
 @media screen and (max-width: 834px) {
   /*header*/
@@ -67,14 +67,38 @@
     justify-content: center;
   }
 
-    /*categories*/
+  /*creators*/
+
+  .creators {
+    .creators-grid {
+      align-self: center;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  /*categories*/
 
   .categories {
     .categories-grid {
       justify-self: center;
 
       grid-template-columns: repeat(2, 1fr);
-    
     }
   }
+
+  /*featured auction*/
+
+ .featured-img{
+ 
+  background-size: cover;
+  background-position: center 30%;
+  width: 100%;
+  aspect-ratio: 2 / 2;
+
+ }
+ .info {
+
+  padding: 0 50px;
+  
+}
 }

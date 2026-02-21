@@ -32,6 +32,12 @@
   margin: 80px auto;
 }
 
+h2{
+  font-family: "WorkSans-sem";
+  font-size: 51px;
+  margin-bottom: 30px;
+}
+
 h3 {
   font-family: "WorkSans-sem";
   line-height: 1.2;
@@ -39,16 +45,52 @@ h3 {
 }
 
 h5 {
-    margin-top: 15px;
-    font-size: 22px;
-    font-family: "WorkSans-sem";
-    line-height: 1.4;
-  }
-
+  margin-top: 15px;
+  font-size: 22px;
+  font-family: "WorkSans-sem";
+  line-height: 1.4;
+}
 
 .sect-desc {
   margin: 10px 0 60px 0;
   font-size: 22px;
   line-height: 1.6;
-  
+}
+
+.btn-transparent {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(0, -100%);
+
+  width: 247px;
+  height: 60px;
+  border: 1px solid var(--btn-purple);
+  background-color: transparent;
+  color: #fff;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  font-family: "WorkSans-sem";
+}
+.btn-transparent:hover {
+  cursor: pointer;
+  color: var(--btn-purple);
+  border: 1px solid white;
+  transition: 0.4s;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  .user p {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+
 }
