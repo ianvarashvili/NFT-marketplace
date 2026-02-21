@@ -317,7 +317,6 @@
   bottom: 0;
   width: 100%;
   padding: 0 115px;
-  
 }
 
 .user {
@@ -388,4 +387,110 @@
       font-size: 12px;
     }
   }
+}
+
+/* HOW IT WORKS*/
+
+.steps-wrapper {
+  margin-top: 48px;
+  display: flex;
+  gap: 30px;
+
+  .step {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    width: 330px;
+    background-color: var(--light-grey);
+    border-radius: 20px;
+    padding: 10px 30px 30px 30px;
+
+    & p {
+      line-height: 1.4;
+    }
+  }
+}
+
+/* JOIN SECTION*/
+
+.join-section {
+  display: flex;
+  gap: 80px;
+  background-color: var(--light-grey);
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+
+  padding: 60px;
+
+  .right-side-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.email {
+  background-color: #fff;
+  padding: 19px 20px;
+  border-radius: 20px 0 0 20px;
+  color: #2b2b2b;
+  width: 425px;
+}
+
+.subscribe-btn {
+  font-family: "WorkSans-sem";
+  border-radius: 20px;
+  background-color: var(--btn-purple);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding: 19px 50px;
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(-80%, -65%);
+
+  @media (max-width: 1220px) {
+    transform: translate(10%, -65%);
+  }
+}
+
+.subscribe-btn:hover {
+  background-color: blueviolet;
+  transition: 0.4s;
+  cursor: pointer;
+}
+/* FOOTER*/
+
+.footer {
+  display: flex;
+  gap: 84px;
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+
+    & h5 {
+      font-family: "SpaceMono";
+    }
+  }
+
+  .subscribe-btn {
+    transform: translate(10%, -25%);
+  }
+}
+ .copyright {
+  width: 95%;
+  margin: 50px;
+  color: #cccccc;
+  font-size: 12px;
+  padding-top: 20px;
+  border-top: 1px solid #858584;
 }

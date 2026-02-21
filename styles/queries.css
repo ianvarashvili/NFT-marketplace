@@ -1,4 +1,4 @@
-@media screen and (max-width: 1070px) {
+@media  (max-width: 1070px) {
   /*trending collection*/
   .collection-wrapper {
     display: grid;
@@ -37,9 +37,14 @@
   .card:last-child {
     display: none;
   }
+
+  .join-section{
+    gap: 20px;
+    padding: 20px;
+  }
 }
 
-@media screen and (max-width: 834px) {
+@media (max-width: 834px) {
   /*header*/
   .navigation {
     display: none;
@@ -102,3 +107,4 @@
   
 }
 }
+
