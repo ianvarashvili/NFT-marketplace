@@ -484,6 +484,13 @@
 
   .subscribe-btn {
     transform: translate(10%, -25%);
+ @media (max-width: 1220px) {
+    transform: translate(10%, -25%);
+  }
+ @media (max-width: 1008px) {
+    transform: translate(10%, -105%);
+  }
+
   }
 }
  .copyright {
